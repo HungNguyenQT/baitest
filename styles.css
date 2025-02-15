@@ -1096,7 +1096,7 @@ input::placeholder {
     /* header */
     .cover-rectango {
         width:200px;
-        left:-5%;
+        left:2%;
     }
     .vector{
         display: none;
@@ -1112,7 +1112,7 @@ input::placeholder {
         font-size: 30px;
     }
     .right-dream{
-        margin-top: 700px;
+        margin-top: 600px;
     }
     .dream-content{
         padding: 0;
@@ -1127,7 +1127,7 @@ input::placeholder {
     }
     .frame-2{
         top: 100px;
-        right: 150px;
+        right: 100px;
     }
     /* about */
     .about-content{
@@ -1137,9 +1137,7 @@ input::placeholder {
     .title-about-content{
         font-size: 30px;
     }
-    .list-unstyled li{
-        margin-bottom: 50px;
-    }
+    
     /* services */
     .services{
         padding-bottom: 50px;
@@ -1152,6 +1150,9 @@ input::placeholder {
         padding-bottom: 15px;
     }
     /* feature */
+    .cover-detail-feature-footer{
+        padding: 0;
+    }
     .title-feature{
         font-size: 30px;
     }
@@ -1176,10 +1177,10 @@ input::placeholder {
         right: -15px;
     }
     .custommer-1{
-                right: 80px;
+        right: 15%;
     }
     .custommer-2{       
-        right: 120px !important;
+        right: 25% !important;
     }
     .custom-prev{
         left: 10px !important;
@@ -1240,6 +1241,9 @@ input::placeholder {
     }
     .title-commercial{
         font-size: 30px;
+    }
+    .ladder.cover-ladder{
+        position: relative;
     }
     /* footer */
     .input-box{
