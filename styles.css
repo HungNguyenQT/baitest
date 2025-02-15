@@ -1176,12 +1176,10 @@ input::placeholder {
         right: -15px;
     }
     .custommer-1{
-        width: 370px;
-        right: 80px;
+                right: 80px;
     }
-    .custommer-2{
-        width: 370px;
-        right: 100px !important;
+    .custommer-2{       
+        right: 120px !important;
     }
     .custom-prev{
         left: 10px !important;
@@ -1220,6 +1218,9 @@ input::placeholder {
         margin: 0;
     }
     /* contact */
+    .cover-relate{
+        display: none;
+    }
     .contact-us h4{
         font-size: 30px;
     }
@@ -1241,6 +1242,9 @@ input::placeholder {
         font-size: 30px;
     }
     /* footer */
+    .input-box{
+        display: inline;
+    }
     .footer p{
         padding: 0;
     }
@@ -1253,5 +1257,8 @@ input::placeholder {
     }
     .list-footer li{
         margin-bottom: 0;
+    }
+    .footer-detail-information{
+        display: inline;
     }
   }
