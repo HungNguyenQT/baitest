@@ -1033,3 +1033,225 @@ input::placeholder {
     font-size: 12px;
     font-weight: 300;
 }
+
+/* reponsive */
+/* màn tablet(768px - 1024px) */
+@media (max-width: 1024px) {
+    .left-dream .start{
+        top:0;
+        right: 0;
+    }
+    .frame-1{
+        right: 10px;
+        width:300px;
+        height: 450px;
+    }
+    .frame-2 {
+        width: 300px;
+        height: 450px;
+        right: 50px;
+    }
+    /* about */
+    .house1 {
+        width: 80px;
+    }
+    .house2{
+        width: 60px;
+    }
+    /* feature */
+    /* custommer */
+    .custommer-1{
+        right: -10px;
+        width: 275px;
+    }
+    .custommer-2{
+        width: 250px;
+        right: 50px;
+    }
+    .custom-next {
+        right: -25px;
+    }
+    .custom-prev{
+        left: 0px;
+    }
+    .text-content .quote{
+        font-size: 15px;
+    }
+    .text-content {
+        padding-left: 20px;
+    }
+    /* contact */
+    .contact-us p{
+        padding-left:20px;
+    }
+    .contact-us input{
+        margin: auto;
+    }
+    .contact-us textarea{
+        margin: auto;
+    }
+  }
+/* màn mobile(<768px) */
+@media (max-width: 768px) {
+    /* header */
+    .cover-rectango {
+        width:200px;
+        left:-5%;
+    }
+    .vector{
+        display: none;
+    }
+    .cover-text-left-header{
+        margin-top: 50px;
+    }
+    .right-header{
+        padding-top: 50px;
+    }
+    /* dream */
+    .tile-right-dream{
+        font-size: 30px;
+    }
+    .right-dream{
+        margin-top: 700px;
+    }
+    .dream-content{
+        padding: 0;
+        margin: 0;
+    }
+    .left-dream .start{
+        top: 0;
+        right: 0;
+    }
+    .frame-1{
+        right: 50px;
+    }
+    .frame-2{
+        top: 100px;
+        right: 150px;
+    }
+    /* about */
+    .about-content{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .title-about-content{
+        font-size: 30px;
+    }
+    .list-unstyled li{
+        margin-bottom: 50px;
+    }
+    /* services */
+    .services{
+        padding-bottom: 50px;
+    }
+    .title-services{
+        padding-top: 50px;
+        font-size: 30px;
+    }
+    .mobile-services {
+        padding-bottom: 15px;
+    }
+    /* feature */
+    .title-feature{
+        font-size: 30px;
+    }
+    .feature{
+        padding-top: 50px;
+    }
+    .text-feature{
+        padding: 0;
+    }
+    .cover-card-feature {
+        margin-bottom: 15px;
+    }
+    .featured-footer{
+        margin-top: 50px;
+    }
+    /* custommer */
+    .custommers{
+        padding-top: 70px;
+    }
+    .custom-next {
+        transform:none;
+        right: -15px;
+    }
+    .custommer-1{
+        width: 370px;
+        right: 80px;
+    }
+    .custommer-2{
+        width: 370px;
+        right: 100px !important;
+    }
+    .custom-prev{
+        left: 10px !important;
+        transform:none;
+        margin-left: -10px;
+        overflow: visible;
+        z-index: 1;        
+    }
+    .text-content .icon-quote{
+        padding-bottom:0;
+    }
+    .title-custommers{
+        font-size: 30px;
+    }
+    /* project */
+    .project{
+        padding-top: 50px;
+    }
+    .title-project{
+        font-size: 30px;
+    }
+    .card-detail-project {
+        margin-bottom: 15px;
+    }
+    /* blog */
+    .blog{
+        padding-top: 50px;
+    }
+    .title-blog{
+        font-size: 30px;
+    }
+    .col-md-4.card-blog {
+        margin-bottom: 15px;
+    }
+    button.btn-readall {
+        margin: 0;
+    }
+    /* contact */
+    .contact-us h4{
+        font-size: 30px;
+    }
+    .contact{
+        padding-top: 50px;
+    }
+    .title-contact-big {
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+    .contact-us {
+        margin-top: 25px;
+    }
+    /* commercial */
+    .commercial{
+        margin-top: 50px;
+    }
+    .title-commercial{
+        font-size: 30px;
+    }
+    /* footer */
+    .footer p{
+        padding: 0;
+    }
+    .text-white.py-5.footer {
+        text-align: center;
+    }
+    .d-flex.gap-2 {       
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+    .list-footer li{
+        margin-bottom: 0;
+    }
+  }
